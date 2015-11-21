@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+	color:white;
+}
+h1 {
+	color:white;
+}
+h2{
+	color:white;
+}
+p {
+	color:white;
+    font-family: "Times New Roman", Times, serif;
+	padding-left:10px;
+	padding-right:10px;
+}
+img {
+	height:100%;
+	width:100%;
+}
+#doublepic {
+	height:100%;
+	width:50%;
+	padding-left:25%;
+}
+
+#doublepic2 {
+	height:100%;
+	width:50%;
+	padding-left:25%;
+	
+}
+.ui-dialog-contain {
+	background-color:blue;
+}
+
+   

@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-9">
+      <title>How to load a paintball gun</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/themes/paintball.css">
+      <link rel="stylesheet" href="css/themes/paintball.min.css">
+      <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
+      <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="js/jquerry.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+   </head>
+   <body data-theme="a">
+      <div data-role="page" id="mainpage" data-dialog="false" data-close-btn="none" data-url="part1" data-theme="a">
+         <h1>So you want to play paintball?</h1>
+         <p>In this 9 step tutoral you will learn the basics of paintball and be ready to play</p>
+         <img id="mainpic" src="Photos/main.jpg" alt="Sad face">
+         <a id="start" href="#1" class="ui-btn ui-icon-home ui-btn-icon-left">Start</a>
+         <a href="#infopage" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+      </div>
+      <div data-role="page" id="1" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>1 out of 9</h1>
+         <h2>Being safe</h2>
+         <p>Paint ball is an outdoor sport where players fire paint filled gell balls at each other.
+            The way that your paintball gun or marker as its known works is it uses compress gas , CO2 or Air. The legal field 
+            limit for the power of your gun is 300ft/s, with this power safety is a must. Getting hit on your body may hurt but
+            body protection is not needed but an eye/face mask is required.
+         </p>
+         <img src="Photos/step1.jpg" alt="Sad face">
+         <a href="#2" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next step</a>
+      </div>
+      <div data-role="page" id="2" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a  href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>2 out of 9</h1>
+         <h2>Gassing up</h2>
+         <p>The way that your marker shoots paintballs is it uses a compressed gas normaly CO2 or pressurized Air</p>
+         <p>The air comes is metal tanks , you should always inspect your tank before using it, be on the lookout of cracks or bad O rings</p>
+         <img src="Photos/step2.jpg" alt="Sad face">
+         <a href="#1" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a  href="#3" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next Step</a>
+      </div>
+      <div data-role="page" id="3" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>3 out of 9</h1>
+         <h2>Attaching your tank</h2>
+         <p>Your metal tank attaches to the bottom of your marker, this adapter is called ASA or Air system adapter.</p>
+         <p>Slowly screw in your tank , keep going until you can longer twist it , make sure you hear a "hisss" when your tank goes in , this is a normal sound and means everything is working.</p>
+         <img src="Photos/step3.jpg" alt="Sad face">
+         <a  href="#2" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a  href="#4" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next Step</a>
+      </div>
+      <div data-role="page" id="4" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>4 out of 9</h1>
+         <h2>Paintballs</h2>
+         <p>The type of ammo a paintball marker uses should be a no brainer , paintballs!</p>
+         <p>Most paintball guns shoot .68 paintball , commonly called 68 caliber, before shooting any paint do a quick test fit to see if the paint fires right. </p>
+         <img src="Photos/step4.jpg" alt="Sad face">
+         <a href="#3" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a href="#5" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next Step</a>
+      </div>
+      <div data-role="page" id="5" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>5 out of 9</h1>
+         <h2>using the safety</h2>
+         <p>Every paintball marker has a safety on it</p>
+         <p>The location of the safety varies but most arer located near the trigger , remember when the red ring on the switch is out the gun will fire, and when you can't see the red it will not shoot</p>
+         <img src="Photos/step5.jpg" alt="Sad face">
+         <a href="#4" id="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a href="#6" id="next" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next Step</a>
+      </div>
+      <div data-role="page" id="6" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>6 out of 9</h1>
+         <h2>Air tips</h2>
+         <p>Having your paintball shoot at a good consistency your air needs to be consistent pressure</p>
+         <p>Air is messured in PSI , the avarage paintball tank hold 3000psi which can shoot around 300 paintball, the minimum pressure you need to shoot is 850psi this </p>
+         <img src="Photos/step6.jpg" alt="Sad face">
+         <a href="#5" id="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a href="#7" id="next" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next Step</a>
+      </div>
+      <div data-role="page" id="7" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>7 out of 9</h1>
+         <h2>maintenance tips</h2>
+         <p>Your paintball marker needs regular maintenance to preform at its peek</p>
+         <p>Maintaning your marker is straightforward, first make sure your O rings aren't discoloring and you clean your barrel after every game.</p>
+         <img src="Photos/step7.jpg" alt="Sad face">
+         <a href="#6" id="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a href="#8" id="next" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next step</a>
+      </div>
+      <div data-role="page" id="8"  data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>8 out of 9</h1>
+         <h2>Following the rules</h2>
+         <p>No one likes playing with a cheater</p>
+         <p>The rules of paintball are very straight forward, most rules vary but the main two are as follows , when you are hit raise your arms (keep your mask on) and always listen to the ref.</p>
+         <img id="doublepic" src="Photos/step8a.jpg" alt="Sad face">
+         <img id="doublepic2" src="Photos/step8b.jpg" alt="Sad face">
+         <a href="#7" id="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left backPage">Previous step</a>
+         <a href="#9" id="next" class="ui-btn ui-icon-arrow-r ui-btn-icon-left nextPage">Next</a>
+      </div>
+      <div data-role="page" id="9" data-dialog="true" data-close-btn="none" data-url="part1" data-theme="a">
+         <a href="#mainpage" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+         <h1>9 out of 9</h1>
+         <h2>Now you know the basics</h2>
+         <p>While these are only the basics they cover the majority of the things you need to know about paintball</p>
+         <p>While paintball is a relatively old sport is constantly evolving so dont forget to keep learning</p>
+         <a href="#8" id="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Previous step</a>
+      </div>
+      <div data-role="page" id="infopage" data-dialog="false" data-close-btn="none" data-url="part1" data-theme="a">
+         <h1>An app using jQuery , hand coded by alex king</h1>
+         <p>simple 9 step tutorial of the basics of paintball , bla bla bla, some words and info.</p>
+         <a href="#mainpage" class="ui-btn ui-icon-info ui-btn-icon-left">home</a>
+      </div>
+   </body>
+</html>
